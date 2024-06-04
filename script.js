@@ -49,3 +49,15 @@ freeTrialButton.addEventListener('click', function() {
 buyNowButton.addEventListener('click', function() {
   console.log('Buy now clicked');
 });
+
+// Add the following JavaScript code to your HTML file
+
+document.addEventListener('DOMContentLoaded', function() {
+  const menuIcon = document.querySelector('.menu-icon');
+  const navMenu = document.querySelector('nav ul');
+
+  menuIcon.addEventListener('click', () => {
+    menuIcon.classList.toggle('active');
+    navMenu.classList.toggle('show');
+  });
+});
