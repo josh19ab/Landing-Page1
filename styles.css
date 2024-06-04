@@ -238,8 +238,8 @@ nav button:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 40vb;
-  left: 80vb;
+  width: 50vb;
+  left: 50vb;
   gap: 30px;
   color: #ffffff9a;
 
