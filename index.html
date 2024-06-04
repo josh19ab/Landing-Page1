@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">DC</a>
+        </div>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="sign-in">Sign In</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <button class="button" data-text="Awesome">
+            <span class="actual-text">&nbsp;Welcome.&nbsp;</span>
+            <span aria-hidden="true" class="hover-text"
+              >&nbsp;Welcome.&nbsp;</span
+            >
+          </button>
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." id="searchInput" />
+            <button class="search-icon" id="searchButton">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 2a8 8 0 016.32 12.906l4.387 4.387a1 1 0 01-1.415 1.414l-4.387-4.387A8 8 0 1110 2zm0 2a6 6 0 100 12A6 6 0 0010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="buttons">
+            <button class="primary" id="freeTrialButton">Free Trial</button>
+            <button class="secondary" id="buyNowButton">Buy Now</button>
+          </div>
+        </div>
+        <div class="textContainer">
+          <h1>Landing Page</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="blurLight"></div>
+        <div class="neon-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+        </div>
+        <div class="scroll-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8zm-4-4l-4 4v2h8v-2l-4-4z"
+            />
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
